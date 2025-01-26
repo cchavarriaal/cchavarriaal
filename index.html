@@ -11,5 +11,109 @@
     <a href="https://www.w3schools.com" target="_blanck">W3School</a>
     <h2>Cristopher Josue Chavarria Alvarez</h2>
     <img src="images/avatarhtml.jpg" alt="Goku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Completo de HTML</title>
+    <base href="https://www.ejemplo.com/">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Ejemplo de uso de múltiples etiquetas HTML">
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Bienvenido a Mi Página Web</h1>
+            <h2>Subtítulo de la Página</h2>
+        </hgroup>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es la sección de inicio.</p>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
+                <figcaption>Figura 1: Imagen de ejemplo</figcaption>
+            </figure>
+            <details>
+                <summary>Más información</summary>
+                <p>Detalles adicionales sobre la sección de inicio.</p>
+            </details>
+            <dialog open>Este es un cuadro de diálogo.</dialog>
+        </section>
+        
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <address>
+                <p>Nombre: Juan Pérez</p>
+                <p>Email: <a href="mailto:juan@example.com">juan@example.com</a></p>
+            </address>
+            <blockquote cite="https://www.ejemplo.com">
+                <p>Este es un bloque de cita.</p>
+            </blockquote>
+            <q>Esta es una cita en línea.</q>
+            <cite>Fuente de la cita</cite>
+            <abbr title="HyperText Markup Language">HTML</abbr> es el lenguaje de marcado estándar.
+            <dfn>Definición</dfn> de un término.
+            <code>console.log('Hola Mundo');</code>
+            <kbd>Ctrl + C</kbd> para copiar.
+            <b>Texto en negrita</b> y <strong>texto fuerte</strong>.
+            <i>Texto en cursiva</i> y <em>texto enfatizado</em>.
+            <mark>Texto resaltado</mark>.
+            <small>Texto pequeño</small>.
+            <del>Texto eliminado</del> y <ins>texto insertado</ins>.
+            <sub>Texto subíndice</sub> y <sup>texto superíndice</sup>.
+            <time datetime="2025-01-26">26 de enero de 2025</time>.
+            <data value="12345">Dato</data>.
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Información de contacto.</p>
+            <ul>
+                <li>Elemento de lista 1</li>
+                <li>Elemento de lista 2</li>
+            </ul>
+            <ol>
+                <li>Elemento de lista ordenada 1</li>
+                <li>Elemento de lista ordenada 2</li>
+            </ol>
+            <dl>
+                <dt>Término 1</dt>
+                <dd>Definición 1</dd>
+                <dt>Término 2</dt>
+                <dd>Definición 2</dd>
+            </dl>
+        </section>
+        
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="https://www.example.com/audio.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <video controls>
+                <source src="https://www.example.com/video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <iframe src="https://www.example.com" width="300" height="200"></iframe>
+            <canvas id="miCanvas" width="300" height="200"></canvas>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Mi Página Web</p>
+    </footer>
 </body>
 </html>
